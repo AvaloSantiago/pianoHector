@@ -1,0 +1,31 @@
+body {
+    background-color: #080218;
+    margin: 0;
+    padding: 0; 
+}
+.container {
+    display: flex; 
+    justify-content: center; 
+}
+.container button {
+    padding: 10px 20px; 
+    border-bottom-width: 215px;
+    background-color: white;
+
+    color: black
+}
+
+.containernegras {
+    display: flex;
+    justify-content: center; 
+    margin-top: 60px;
+}
+.containernegras button {
+    margin: 5px;
+    padding: 10px 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: black;
+
+    color: white
+}
