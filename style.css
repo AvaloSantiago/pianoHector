@@ -1,7 +1,6 @@
 body {
     background-color: #080218;
     margin: 0;
-<<<<<<< HEAD
     padding: 0;
 }
 
@@ -45,7 +44,7 @@ body {
 
 .domayor{
     position: absolute;
-    left: 436px;
+    left: 437px;
 }
 
 .remayor{
@@ -70,33 +69,3 @@ body {
 position: absolute;
 left: 523px;    
 }
-=======
-    padding: 0; 
-}
-.container {
-    display: flex; 
-    justify-content: center; 
-}
-.container button {
-    padding: 10px 20px; 
-    border-bottom-width: 215px;
-    background-color: white;
-
-    color: black
-}
-
-.containernegras {
-    display: flex;
-    justify-content: center; 
-    margin-top: 60px;
-}
-.containernegras button {
-    margin: 5px;
-    padding: 10px 20px;
-    margin-left: 10px;
-    margin-right: 10px;
-    background-color: black;
-
-    color: white
-}
->>>>>>> c7098a8fd29d9333c7ce5b894a5069b2c3b6f2db
