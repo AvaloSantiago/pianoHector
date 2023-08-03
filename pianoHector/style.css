@@ -1,7 +1,6 @@
 body {
-    background-color: #080218;
-    margin: 0;
-    padding: 0;
+    background: rgb(9,7,50);
+    background: linear-gradient(90deg, rgba(9,7,50,1) 34%, rgba(8,2,24,1) 65%, rgba(10,78,92,1) 100%);
 }
 
 .blancas {
@@ -10,16 +9,40 @@ body {
     display: flex;
     justify-content: center;
 }
-
+/* Estilos de los botones blancos */
 .blancas button {
     top: 125px;
     position: relative;
     padding: 10px 20px;
-    border-top-width: 215px;
-    background-color: white;
+    background: linear-gradient(to bottom, #fff, darkblue); /* Utiliza un gradiente lineal como fondo */
     color: black;
     z-index: 0;
+    width: 100px; /* Ajusta el ancho del botón */
+    height: 300px; /* Ajusta la altura del botón */
+    font-family: 'Times New Roman', Times, serif; /* Cambia la fuente a Arial y agrega una fuente de respaldo sans-serif */
+    font-size: larger;
+    transition: background 0.6s ease; /* Animación de transición en el cambio de color */
 }
+
+/* Capa para el efecto de transición */
+.blancas button::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, pink, #ddd); /* Cambia el color al pasar el cursor sobre ellos */
+    opacity: 0;
+    z-index: -1;
+    transition: opacity 0.6s ease; /* Animación de transición en el cambio de color */
+}
+
+/* Estilos de los botones blancos cuando el mouse está sobre ellos */
+.blancas button:hover::after {
+    opacity: 1;
+}
+
 
 .containernegras {
     position: absolute; /* Cambiar a posicionamiento absoluto */
