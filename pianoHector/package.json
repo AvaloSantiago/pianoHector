@@ -1,0 +1,18 @@
+{
+  "name": "pianohector",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+<<<<<<< HEAD
+  "license": "ISC",
+  "dependencies": {
+    "tone": "^14.7.77"
+  }
+=======
+  "license": "ISC"
+>>>>>>> c7098a8fd29d9333c7ce5b894a5069b2c3b6f2db
+}
